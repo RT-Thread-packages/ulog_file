@@ -73,7 +73,8 @@ static rt_bool_t ulog_file_rotate(void)
             err = rename(old_path, new_path);
         }
 
-        if (err < 0) {
+        if (err < 0)
+        {
             result = RT_FALSE;
             goto __exit;
         }
