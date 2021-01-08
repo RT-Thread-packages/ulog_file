@@ -33,6 +33,10 @@
 
 #define ULOG_FILE_PATH_LEN   128
 
+#if (ULOG_ASYNC_OUTPUT_THREAD_STACK < 2048)
+#error "The value of ULOG_ASYNC_OUTPUT_THREAD_STACK must be greater than 2048."
+#endif
+
 static struct ulog_backend ulog_file;
 static char g_file_path[ULOG_FILE_PATH_LEN] = {0};
 static int g_file_fd = -1;
