@@ -11,8 +11,8 @@
 #ifndef _ULOG_FILE_H_
 #define _ULOG_FILE_H_
 
-#define ULOG_FILE_SW_VERSION      "0.0.1"
-#define ULOG_FILE_SW_VERSION_NUM  0x000001
+#define ULOG_FILE_SW_VERSION      "1.0.0"
+#define ULOG_FILE_SW_VERSION_NUM  0x0100000
 
 int ulog_file_backend_init(void);
 int ulog_file_backend_deinit(void);
