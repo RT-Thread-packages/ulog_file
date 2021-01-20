@@ -27,8 +27,17 @@
 RT-Thread online packages
     tools packages --->
         [*] ulog_file: The ulog file backend by filesystem.
+        (/logs) The root path of the saved file
+        (ulog.log) The base name of the saved file
+        (5)   The maximum number of the saved file
+        (524288) The maximum size of a file
             Version (latest)  --->
 ```
+
+- **The root path of the saved file**：日志文件保存的根路径；
+- **The base name of the saved file**：日志文件的基础文件名，文件名格式 `ulog.log.x`；
+- **The maximum number of the saved file**：配置这日志文件最大数量；
+- **The maximum size of a file**：配置单个日志文件最大长度；
 
 ## 3、使用说明
 
