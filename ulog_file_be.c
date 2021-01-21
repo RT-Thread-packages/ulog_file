@@ -131,7 +131,7 @@ static void ulog_file_backend_output(struct ulog_backend *backend, rt_uint32_t l
 int ulog_file_backend_init(void)
 {
     ulog_file.output = ulog_file_backend_output;
-    ulog_backend_register(&ulog_file, ULOG_FILE_BE_NAME, RT_TRUE);
+    ulog_backend_register(&ulog_file, ULOG_FILE_BE_NAME, RT_FALSE);
     return 0;
 }
 
