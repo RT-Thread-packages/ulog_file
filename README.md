@@ -1,4 +1,4 @@
-# 基于文件系统的 ulog 插件
+# ~~基于文件系统的 ulog 插件~~ （自 RT-Thread V4.1.0 以后，本软件包已废弃，代码已移动至 RT-Thread 内部，位于 ulog/backend 目录下）
 
 ## 1、介绍
 
